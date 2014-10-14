@@ -32,7 +32,6 @@ contents.each_with_index do |line, index|
 		grouped.push("\n")
 	end
 end
-
 contents = grouped + ["\n"] + notifications
 
 puts contents
